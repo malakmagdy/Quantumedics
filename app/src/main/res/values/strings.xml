@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Quantumedics</string>
+    <string name="app_logo">AppLogo</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="login">Login</string>
+    <string name="choose_the_area_of_diagnosis">Choose the area of diagnosis</string>
+    <string name="description">Introducing "Quantumedics", an app for quick and reliable medical diagnosis of brain and chest conditions. Quantumedics generates a detailed medical report for each case. Simply upload your medical image and receive a comprehensive diagnosis in minutes. With Quantumedics, patients and healthcare providers can obtain accurate and reliable medical diagnoses for brain and chest conditions all in one user-friendly and secure app.</string>
+    <string name="brain">Brain</string>
+    <string name="chest">Chest</string>
+    <string name="birth_date">Birth Date</string>
+    <string name="hello_there_welcome_back">Hello There,
+        Welcome Back</string>
+    <string name="already_have_account_login">Already have an account ? <b>LOGIN</b></string>
+    <string name="email">E-mail</string>
+    <string name="select_image">Select Image</string>
+    <string name="camera">Camera</string>
+    <string name="get_results">Get Results</string>
+    <string name="join_as_a_guest"><u>Join as a guest</u></string>
+    <string name="new_user_sign_up">New User ? SIGN UP</string>
+    <string name="forget_password">Forget Password</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="choose_brain_image_for_diagnosis">Choose Brain Image for Diagnosis</string>
+
+    <string name="new_account">New Account</string>
+    <string name="upload">Upload</string>
+    <string name="ex_name_gmail_com">ex: name@gmail.com</string>
+    <string name="enter_your_email_address">Enter your email address</string>
+    <string name="reset">Reset</string>
+    <string name="cancel">Cancel</string>
+    <string name="hello_folan">Hello !</string>
+
+    <string name="mri_instruction1"><b>1-</b> Make sure you upload a MRI scan of the brain in the app, It should be in (.jpg) or a compatible format.</string>
+
+    <string name="instruction2"><b>2-</b> Upload an image with the same view as the example picture highlighted in green. </string>
+    <string name="instruction3"><b>3-</b> After uploading, click on "See Results" and wait for the diagnostic report to be generated. Avoid closing the app or leaving the page until the report is ready.</string>
+
+    <string name="xray_instruction1"><b>1-</b> Make sure you upload a X-Ray scan of the chest in the app, It should be in (.jpg) or a compatible format.</string>
+
+    <string name="choose_chest_image_for_diagnosis">Choose Chest Image for Diagnosis</string>
+    <string name="choose_the_type_of_image">Choose the type of image</string>
+
+    <string-array name="brain_scan_types">
+        <item>Magnetic Resonance Imaging for brain (MRI)</item>
+        <item>Computed Tomography for brain (CT)</item>
+    </string-array>
+
+    <string-array name="chest_scan_types">
+        <item>Chest X-Ray</item>
+        <item>Computed Tomography for chest (CT)</item>
+    </string-array>
+
+    <string-array name="breast_scan_types">
+        <item>Histopathology</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context=".ReportActivity">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:fontFamily="@font/poppins_semibold"
+            android:text="Report Results"
+            android:textColor="@color/turquoise_bright"
+            android:textSize="25sp" />
+
+        <ImageView
+            android:id="@+id/iv_report_image"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:src="@drawable/brain_image" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_patientName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:text="Patient name:"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tv_patientlastName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:text=""
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_patientAge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:fontFamily="@font/regular_inter"
+            android:text="Patient age: "
+            android:textSize="16sp" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginBottom="30dp">
+
+            <TextView
+                android:id="@+id/tv_report"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:gravity="fill"
+                android:justificationMode="inter_word"
+                android:layout_marginEnd="16dp"
+                android:scrollbars="vertical"
+                android:text="@string/description"
+                android:textSize="16sp" />
+
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="16dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_savePdf"
+                android:layout_width="140dp"
+                android:layout_height="50dp"
+                android:layout_margin="16dp"
+                android:fontFamily="@font/arista_pro_alternate_regular"
+                android:text="Save as .pdf"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/btn_share"
+                android:layout_width="140dp"
+                android:layout_height="50dp"
+                android:layout_margin="16dp"
+                android:fontFamily="@font/arista_pro_alternate_regular"
+                android:text="Share"
+                android:textAllCaps="false" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    </LinearLayout>

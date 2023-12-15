@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="purple_light">#5E72D6</color>
+    <color name="purple">#082183</color>  <!--The color of the logo-->
+    <color name="purple_medium">#354FB9</color>
+
+    <color name="dark_blue">#222B4E</color>
+    <color name="turquoise_bright">#14E3C3</color>
+    <color name="turquoise_dark">#FF018786</color>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="off_white">#68FFFFFF</color>
+
+
+
+
+
+
+
+</resources>

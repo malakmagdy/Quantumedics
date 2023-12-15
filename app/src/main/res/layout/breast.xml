@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_HelloUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:gravity="center"
+        android:text="@string/hello_folan"
+        android:textColor="@color/purple"
+        android:textSize="25sp" />
+
+
+    <TextView
+        android:id="@+id/tv_diagnosis_area"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Area of Diagnosis: Breast"
+        android:textColor="@color/purple"
+        android:textSize="20sp" />
+
+
+    <ImageView
+        android:id="@+id/iv_breast"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:contentDescription="@string/brain"
+        android:src="@drawable/breast_cancer_image" />
+
+
+    <TextView
+        android:id="@+id/tv_choose_scan_types"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="@string/choose_the_type_of_image"
+        android:textColor="@color/purple"
+        android:textSize="20sp"
+        android:visibility="visible" />
+
+
+    <Spinner
+        android:id="@+id/sp_breastImageTypes"
+        android:layout_width="350dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:entries="@array/breast_scan_types"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/btn_breast_next"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:focusable="true"
+        android:fontFamily="@font/poppins_light"
+        android:text="Next"
+        android:textAllCaps="false" />
+
+</LinearLayout>
